@@ -168,6 +168,9 @@ nav {
 .portfolio-row{
     height: 150px;
     width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
 }
 
 .portfolio-card{
@@ -176,6 +179,7 @@ nav {
     border: 1px solid #5c5b63;
     border-radius: 10px;
     height: 63%;
+    margin-bottom: 15px;
 
 }
 

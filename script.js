@@ -52,7 +52,7 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function() {
-    
+
     $('.acsaa-info-button').hover(function(){
         $('.acsaa-weblink').css('color', '#8a181a')
     })
@@ -67,9 +67,13 @@ $(document).ready(function() {
             //if the window is greater than 440px wide then turn on jScrollPane..
             $('.right-side-scroll').attr('data-aos', 'fade-up');
             $('.left-side-scroll').attr('data-aos', 'fade-up');
+            $('#portfolio').css('height', '100%');
+            $('.portfolio-middle').removeClass('mx-5')
         } else {
             $('.right-side-scroll').attr('data-aos', 'fade-right');
             $('.left-side-scroll').attr('data-aos', 'fade-left');
+            $('#portfolio').css('height: 400px');
+            $('.portfolio-middle').addClass('mx-5');
         }
     }
     // Execute on load
