@@ -325,6 +325,12 @@ h5 {
     color: yellow;
 }
 
+.social-icons a .fa-linkedin{
+    font-size: 50px;
+    color: yellow;
+}
+
+
 .modal-dialog {
     max-width: 75%;
     margin: 1.75rem auto;
